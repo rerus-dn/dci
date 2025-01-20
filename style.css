@@ -165,12 +165,12 @@ section {
     max-width: 100px;
     margin-bottom: 10px;
 }
-erfolg img:hover {
+.erfolg img:hover {
 max-width: 130px;
 margin-bottom: 13px;
 }
 
-erfolg:hover {
+.erfolg:hover {
     background: #bee3e7;
 }
 /*
