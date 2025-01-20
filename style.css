@@ -165,7 +165,14 @@ section {
     max-width: 100px;
     margin-bottom: 10px;
 }
+erfolg img:hover {
+max-width: 130px;
+margin-bottom: 13px;
+}
 
+erfolg:hover {
+    background: #bee3e7;
+}
 /*
 .beschreibung {
     display: flex;
