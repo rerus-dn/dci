@@ -1,0 +1,349 @@
+/* allgemein */
+body {
+    background: url("bild/lenovo-main.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: beige
+}
+
+/* nav */
+nav {
+    background: #2f2e2e;
+    color: #f2e9e9;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+#highlight {
+  padding: 20px 20px;
+  background-color: #f4f9ff; /* Светлый фон: нежный голубоватый оттенок */
+  color: #333333; /* Тёмный цвет текста для хорошего контраста */
+  text-align: center;
+}
+
+#highlight div {
+  max-width: 900px; /* Ширина контейнера для текста */
+  margin: 0 auto; /* Центрирование по горизонтали */
+  padding: 40px; /* Внутренние отступы */
+}
+
+#highlight h1 {
+  font-size: 3rem; /* Крупный размер заголовка */
+  font-weight: bold; /* Жирный текст */
+  margin-bottom: 40px; /* Отступ снизу */
+  color: red;
+}
+
+#highlight h2 {
+  font-size: 2rem; /* Размер подзаголовков */
+  font-weight: 500; /* Средняя толщина текста */
+  margin-bottom: 30px; /* Отступы между вопросами */
+}
+
+
+
+
+.stellen {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#angebot {
+    background: orangered;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#angebot h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #005f99;
+}
+
+/* table */
+.vergleich {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.vergleich th, .vergleich td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.vergleich th {
+    background: #f0f0f0;
+}
+
+.vergleich th img, .vergleich td img {
+    max-width: 150px;
+    height: auto;
+}
+
+.laptop-3x {
+    position: relative;
+    width: 100%; /* Ширина контейнера равна ширине окна */
+    height: auto; /* Высота будет подстраиваться */
+    text-align: center; /* Центрирование содержимого */
+}
+
+.laptop-3x img {
+    max-width: 100%; /* Изображение не выходит за границы контейнера */
+    height: auto; /* Сохраняет пропорции */
+    display: inline-block; /* Центрирует изображение внутри контейнера */
+}
+
+.horizontal-blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.erfolg {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.erfolg img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/*
+.beschreibung {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+
+.beschreibung img {
+    flex: 1;
+    max-width: 150px;
+    margin: 0 15px;
+}
+
+.beschreibung p {
+    flex: 2;
+    margin: 0;
+}
+*/
+#beschreibung {
+    background: #f9f9f9; /* Светлый фон */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.beschreibung-h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.beschreibung-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.beschreibung-item {
+    flex: 1 1 calc(33.333% - 20px); /* Три элемента в строке */
+    max-width: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.beschreibung-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.beschreibung-item p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.beschreibung-item strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.preis {
+    font-size: 50px;
+    font-weight: bold;
+    color: #030339;
+
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.background-section {
+    background: url("bild/lenovo-main.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+#start {
+    position: relative;
+    background: url("bild/lenovo-main.webp") no-repeat center center;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+#start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный слой */
+    z-index: 1;
+}
+
+#start h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Белый полупрозрачный фон только под текстом */
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333; /* Темный текст для контраста */
+}
+
+#start h2 {
+    position: relative;
+    z-index: 2;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #555;
+}
+
+#start p {
+    position: relative;
+    z-index: 2;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #444;
+}
+
+#start .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+#start .button:hover {
+    background-color: #c0392b;
+}
+
+}
