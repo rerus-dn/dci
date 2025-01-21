@@ -353,4 +353,9 @@ footer img {
     background-color: #c0392b;
 }
 
+#angebot img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Убирает дополнительные отступы, если изображение является inline-элементом */
+    margin: 0 auto; /* Центрирует изображение, если необходимо */
 }
